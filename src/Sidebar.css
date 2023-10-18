@@ -1,0 +1,158 @@
+.aside{
+    width:max-content;
+    height:100vh;
+    padding: 2px;
+    background-color:blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+    align-items: center;
+
+}
+.iconul {
+    display: flex;
+    flex-direction: column;
+    justify-content: top; /* Icons appear at the bottom */
+    align-items: center;
+    
+  }
+.openul{
+    display: flex;
+    padding: 0px;
+    margin: 0;
+    gap:3px;
+    margin-top:30px;
+}
+.image{
+    margin-left: 1px;
+}
+.openul h1{
+padding:1px;
+}
+.opencontent .closecontent .openclass .closeclass .logotext{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+}
+
+
+.logo{
+    width: 34px;
+    height: 34px;
+    display: flex;
+    position: absolute;
+    margin-top: 2px;
+    align-items: center;
+    justify-content: center;
+
+}
+.openclass{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all;
+    width: max-content;
+}
+.closeclass{
+    display: flex;
+    
+    align-items: left;
+    transition: all;
+    width:fit-content; 
+    
+
+    
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.opencontent{
+    display:flex;
+    align-items: center;
+    gap: 3px;
+    overflow: hidden;
+    transition: all;
+    width: 44px;
+}
+.closecontent{
+    display:flex;
+    align-items: center;
+    gap: 3px;
+    overflow: hidden;
+    transition: all;
+    width: 0px;
+}
+.btn{
+    padding:0;
+    border-radius: 100% 0% 0% 100% / 48% 30% 70% 52% ;
+    border: none;
+    position:absolute;
+    top:98px;
+    background-color: transparent;
+    cursor:pointer;
+    left: 9rem;
+    
+    
+
+}
+.btn-open{
+    padding:0;
+    
+    border-radius: 100% 0% 0% 100% / 48% 30% 70% 52% ;
+    border: none;
+    position:absolute;
+    top:98px;
+    cursor:pointer;
+    left: 9rem;
+}
+.btn-close{
+    margin-left: 0;
+    margin-top: 5px;
+    border-radius: 0% 100% 100% 0% / 44% 30% 70% 56% ;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: wheat;
+}
+.openul :hover{
+    background-color: white;
+    cursor:pointer
+}
+@media(min-width:780px){
+    .aside{
+        width:max-content;
+        height:100vh;
+        padding: 1px;
+        background-color:blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    
+    }
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+        gap:2px;
+        align-items: center;
+    
+    }   
+
+   
+ 
+ }
+ 

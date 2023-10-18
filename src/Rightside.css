@@ -1,0 +1,243 @@
+   .card1 {
+    display:flex;
+    width: calc(19% - 10px);
+    padding:30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+    height:150px;
+    margin:5px;
+}
+.card2 {
+    display:flex;
+    width: calc(19% - 10px);
+    padding:30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+    height:190px;
+    margin:5px;
+}
+
+
+.header{
+    display: flex;
+
+   
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    align-content: space-between;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:10px;
+}
+.text h1{
+    font-size: 25px;
+    color: grey;
+}
+
+.text h2{
+    font-size: x-large;
+    font-weight: bold;
+    color:black
+}
+.text h3{
+    color:green;
+    font-size: 18px;
+}
+.text h4{
+    color:green;
+    font-size: 8px;
+}
+.card{
+    color:black;
+    font-size:8px;
+}
+
+.circle{
+    border:2px solid;
+    border-radius: 50%;
+    background-color:lightgreen;
+    width:50rem;
+    height:8rem;
+    align-items: center;
+    align-content: center;
+    top:10px;
+    position:relative;
+
+}
+.circle2{
+    border:2px solid;
+    border-radius: 50%;
+    background-color:pink;
+    width:50rem;
+    height:8rem;
+    align-items: center;
+    align-content: center;
+    top:10px;
+    position:relative;
+
+}
+.circle3{
+    border:2px solid;
+    border-radius: 50%;
+    background-color:lavender;
+    width:50rem;
+    height:8rem;
+    align-items: center;
+    align-content: center;
+    top:10px;
+    position:relative;
+
+}
+.circle4{
+    border:2px solid;
+    border-radius: 50%;
+    background-color:lightblue;
+    width:50rem;
+    height:8rem;
+    align-items: center;
+    align-content: center;
+    top:10px;
+    position:relative;
+
+}
+
+.dollar{
+    position: absolute;
+    width:50%;
+    height:50%;
+    top:20%;
+    
+    right:45%;
+    color: blue;
+    
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    left:10rem;
+    margin-left: 2rem;
+    padding:0px;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    height:30px;
+    gap:0px;
+    /* display:flex;
+    flex-direction: column;
+    padding:0px;
+    gap:0px; */
+} 
+
+
+.text h1,
+.text h2,
+.text h3,
+.text h4 {
+    margin: 0;
+    padding: 4px;
+}
+.h4{
+    font-size: 14px;
+}
+.chart{
+    display:flex;
+    width:730px;
+    padding:30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+    height:180px;
+    margin:5px;
+}
+@media (max-width:768px) {
+    .card1,.card2{
+        width: 200px;
+   
+    /* .card1,
+    .card2,
+    .card3 {
+      flex: 1;
+      min-width: calc(100% - 10px);
+      max-width: calc(100% - 10px);
+      margin: 10px 0; /* Add space between cards */
+    
+    }
+    
+.chart{
+    width: fit-content;
+    padding: 0;
+    text-align: left;
+}
+}
+@media(max-width:480px){
+   .card1,.card2{  min-width: calc(23.33%-10px);
+    max-width: fit-content;
+    padding: 20px;
+    
+   }
+.chart{
+   display :flex;
+   flex-direction: column;
+    margin-top: 20px;
+   width: 270px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 210px;
+}
+.chart h1{
+    font-size: 12px;
+    font-weight: bold;
+}
+.header input{
+    margin-left: 20rem;
+    height:30px;
+    width:150px;
+    margin-top: 30px;
+    margin-right: 0;
+}}
+   .card1,.card2{
+    flex:1;
+    min-width: calc(33.33%-10px);
+    max-width: calc(33.33%-10px);
+    padding: 20px;
+   }
+   .chart h1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+   }
+    @media (min-width:700px) {
+        .header{
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+            gap: 700px;}
+            .searchitem{
+                height:25px;
+                width:150px;
+                border:2px solid black;
+                margin-top: 2px;
+            }
+           
+        }
+   
